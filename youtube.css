@@ -1,0 +1,143 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+ body{ 
+     background-color: black; 
+ } 
+
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(64, 1, 1);
+    border-bottom: 1px solid white;
+}
+
+.nav:hover::after {
+        width: 100%;
+
+}
+.jio{
+    margin-left: 50px;
+    width: auto;
+    height: 7vh;
+}
+ul{
+    color: white;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 0px;
+    top: 25px;
+}
+ul .fli{
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left: 400px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+ul .fli ::after{
+    content: '';
+    width: 60px;
+    height: 5px;
+    background-color: rgb(255, 0, 153);
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+}
+ul .fli :hover::after{
+    width: 100%;
+}
+.Search{
+    position: absolute;
+    font-size: 17px;
+    background-color: grey;
+    top: 20px;
+    right: 170px;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 20px;
+}
+
+::placeholder{
+    color: white;
+}
+.ser{
+    height: 35px;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    right: 32%;
+}
+.mic{
+    height: 35px;
+    width: auto;
+    position: absolute;
+    top: 25px;
+    right: 13%;
+}
+.cir{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    right: 80px;
+    top: 12px;
+}
+.profile{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: -6px;
+
+}
+ .second{
+    margin-top: 80px; 
+    margin-right: 0px;
+    background-color: brown;
+    /* position: fixed; */
+}
+.sli{
+     margin-left: 20px;
+    font-size: 19px;
+    padding: 1px;
+    border-radius: 40px;
+    margin-top: 60px;
+     margin-right: 20px; 
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: start; 
+}
+.sli:hover{
+    background-color: white;
+    color: grey;
+} 
+#line{
+        width: 100%;
+        height: 0.3rem;
+        background-color: black;
+        position: fixed;
+        top: 120px;
+      }
+
+ .image{
+    text-align: center;
+}
+/* .Hot {
+    height: 100px;
+    width: 600px;
+
+} */
+ /* .Hot1 {
+    size: 300px;
+    width: 500px;
+ } */
